@@ -17,21 +17,21 @@ public class main {
 	
 	public static void main(String[] args){
 		
-		List<Pessoa> lista = new ArrayList<>();
-		
-		Pessoa p = new Pessoa("3443", "Joao", 1.58);
-		Pessoa p2 = new Pessoa("222", "jose", 1.58);
-		Pessoa p3 = new Pessoa("3333", "maria", 1.58);
-		
-		lista.add(p);
-		lista.add(p2);
-		lista.add(p3);
-		
-		for (Pessoa l: lista){
-			System.out.println(l.getNome());
-			
-		}
-		
+//		List<Pessoa> lista = new ArrayList<>();
+//		
+//		Pessoa p = new Pessoa("3443", "Joao", 1.58);
+//		Pessoa p2 = new Pessoa("222", "jose", 1.58);
+//		Pessoa p3 = new Pessoa("3333", "maria", 1.58);
+//		
+//		lista.add(p);
+//		lista.add(p2);
+//		lista.add(p3);
+//		
+//		for (Pessoa l: lista){
+//			System.out.println(l.getNome());
+//			
+//		}
+//		
 		
 	
 //		List<String> lista = new ArrayList<>();
