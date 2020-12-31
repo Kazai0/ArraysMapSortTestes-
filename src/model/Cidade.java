@@ -5,16 +5,21 @@ public class Cidade {
 	private Long cep;
 	private String nome;
 	
+	Estado estado;
+	
+	
 	public Cidade(){
 		
 	}
 
-	public Cidade(Long cep, String nome) {
+	public Cidade(Long cep, String nome, Estado estado) {
 		super();
+		this.estado = estado;
 		this.cep = cep;
 		this.nome = nome;
 	}
 
+	
 	public Long getCep() {
 		return cep;
 	}
@@ -29,6 +34,15 @@ public class Cidade {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+	
+
+	public Estado getEstado() {
+		return estado;
+	}
+
+	public void setEstado(Estado estado) {
+		this.estado = estado;
 	}
 
 	@Override
