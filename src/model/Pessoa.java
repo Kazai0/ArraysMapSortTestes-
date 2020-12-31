@@ -1,6 +1,5 @@
 package model;
 
-import java.util.Calendar;
 import java.util.Comparator;
 
 
@@ -10,30 +9,8 @@ public class Pessoa{
 	private String cpf;
 	private String nome;
 	private double altura;
-	private int filhos;
-	private int ano;
 
 	
-	
-	
-	
-	
-	public int getFilhos() {
-		return filhos;
-	}
-
-	public void setFilhos(int filhos) {
-		this.filhos = filhos;
-	}
-
-	public int getAno() {
-		return ano;
-	}
-
-	public void setAno(int ano) {
-		this.ano = ano;
-	}
-
 	public double getAltura() {
 		return altura;
 	}
@@ -42,14 +19,12 @@ public class Pessoa{
 		this.altura = altura;
 	}
 
-	public Pessoa(String cpf, String nome, double altura, int filhos, int ano ){
+	public Pessoa(String cpf, String nome, double altura){
 		super();
 		this.cpf = cpf;
 		this.nome = nome;
 		this.altura = altura;
-		this.filhos = filhos;
-		this.ano = ano;
-		
+	
 		
 		
 	}
